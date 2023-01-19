@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!--Head é para cabeçalho-->
+<!--Head: cabeçalho do código-->
 
 <head>
     <!--Fonte de 'Registrar meu dia:'-->
@@ -19,8 +19,7 @@
     <!--Usamos isso aqui para o css se conectar ao html:-->
     <link rel="stylesheet" href="./style.css" media="screen">
 </head>
-
-<!--Body é o corpo do código html e nele podemos adicionar os conteúdos e imagens.-->
+<!--Body: é corpo do código html e nele podemos adicionar os conteúdos e imagens.-->
 
 <body>
     <header>
@@ -34,26 +33,48 @@
 
     <form> <!--Colunas:-->
         <div class="habits">
-            <div class="habit">🏃‍♀️</div> <!--Emojis: 'windows + .' -->
-            <div class="habit">💧</div>
-            <div class="habit">🍎</div>
+            <!--Emojis: 'windows + .' -->
+            <div class="habit" data-name="run">🏃‍♀️</div>
+            <div class="habit" data-name="water">💧</div>
+            <div class="habit" data-name="food">🍎</div>
         </div>
 
         <div class="days">
             <div class="day">
-                <div>03/01</div>
+                <div>Seg</div>
                 <input type="checkbox" name="run">
                 <input type="checkbox" name="water">
                 <input type="checkbox" name="food">
             </div>
             <div class="day">
-                <div>04/01</div>
+                <div>Ter</div>
+                <input type="checkbox" name="run">
+                <input type="checkbox" name="water">
+                <input type="checkbox" name="food">
+            </div>
+            <div class="day">
+                <div>Qua</div>
+                <input type="checkbox" name="run">
+                <input type="checkbox" name="water">
+                <input type="checkbox" name="food">
+            </div>
+            <div class="day">
+                <div>Qui</div>
+                <input type="checkbox" name="run">
+                <input type="checkbox" name="water">
+                <input type="checkbox" name="food">
+            </div>
+            <div class="day">
+                <div>Sex</div>
                 <input type="checkbox" name="run">
                 <input type="checkbox" name="water">
                 <input type="checkbox" name="food">
             </div>
         </div>
     </form>
+    <!--Library do projeto:-->
+    <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
