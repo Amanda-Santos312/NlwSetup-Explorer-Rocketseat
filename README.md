@@ -1,7 +1,7 @@
 # **NlwSetup-Explorer-Rocketseat**
 ## Aprendizados WebDevelopment de 16 a 20 de Jan-2023
  ___
-# **HTML: é a estrutura**
+# **🔴HTML: é a estrutura**
 ## **Tags:**
 * `<p>conteúdo</p>`
 
@@ -9,7 +9,7 @@
 * `<a> href"link aqui">Link</a>
 <img src="image.jpg">`
  ___
-# **CSS: é o estilo**
+# **🔵CSS: é o estilo**
 ## **Declarações:**
 * ### Pedaço de código que irá ditar as propriedades e valores e serem aplicadas a um elemento HTML.
 
@@ -36,7 +36,7 @@
 
   Ex3: `element {->peso 1}` 
  ___
- # **JavaScript: são os comandos**
+ # **🟡JavaScript: são os comandos**
 ## **Tipos de dados:**
 ### Informações que podem sem em **Strings**,**Number**,**Boolean** ou dados mais estruturados.
 ## **Funções**
