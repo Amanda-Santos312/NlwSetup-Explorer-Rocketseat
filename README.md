@@ -38,7 +38,7 @@
  ___
  # **🟡JavaScript: são os comandos**
 ## **Tipos de dados:**
-### Informações que podem sem em **Strings**,**Number**,**Boolean** ou dados mais estruturados.
+### Informações que podem ser em **Strings**,**Number**,**Boolean** ou dados mais estruturados.
 ## **Funções**
 * ### Agrupamento de código;
 * ### Reuso;
